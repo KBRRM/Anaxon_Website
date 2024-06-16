@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+header {
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    display: flex;
+   
+    font-family: 'Pacifico';
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: rgb(14, 1, 1);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h2 {
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 0 0 2rem 0;
+    font-size: 1.25rem;
+}
+
+.hero .btn {
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(14, 1, 1);
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #f8f8f8;
+    color: rgb(14, 1, 1);
+}
+
+section {
+    padding: 3rem 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.contact-form, .contact-info {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.contact-form h2, .contact-info h2 {
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.input-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.btn {
+    background-color: #e4dcf0;
+    color: rgb(19, 1, 1);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e4dcf0;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-info p strong {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.scooter {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.scooter div {
+    margin-bottom: 20px;
+}
+
+.scooter a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.scooter a:hover {
+    text-decoration: underline;
+}
+
+.scooter .social-icons a {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.scooter .social-icons a:last-child {
+    margin-right: 0;
+}
+
+.scooter .copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.hero {
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    height: 100vh;
+    background: url('https://i.ibb.co/VHJFbXz/campaign-creators-q-Ci-Mz-VODo-U-unsplash.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 60px; /* To offset the height of the fixed header */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #ddd;
+}
